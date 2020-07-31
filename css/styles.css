@@ -4,6 +4,8 @@
 
 header {
     position: fixed;
+    height: 50px;
+    background-color: #222831;
 }
 
 .profile-image {
