@@ -2,10 +2,31 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 header {
-    position: fixed;
-    height: 50px;
+    /* position: fixed; */
+    height: 60px;
     background-color: #222831;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #4f8a8b;
+}
+
+.content {
+    top: 50px;
 }
 
 .profile-image {
