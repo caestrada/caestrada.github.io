@@ -16,33 +16,29 @@
             <a href="../contact-me.html">Contact Me</a>
         </nav>
     </header>
+
+    <!-- PROBLEM 01 -->
+    <section class="content">
+      <h1>2. Solve problem below</h1>
+      <code>
+        <p>Write a function that takes two strings, s1 and s2 and return the 
+        longest common subsequence of s1 and s2.</p>
+        <p>ex:</p>
+        <p>"ABAZDC", "BACBAD"  => "ABAD"</p>
+        <p>"AGGTAB", "GXTXAYB" => "GTAB"</p>
+        <p>"aaaa", "aa"        => "aa"</p>
+      </code>
+      <script src="./problem01.js"></script>
+    </section>
+
+    <!-- PROBLEM 00 -->
     <section class="content">
       <h1>1. Hide password with “•••••••”</h1>
-      <p>
-        Implement the hide password you normally see on mobile password inputs.
-      </p>
+      <p>Implement the hide password you normally see on mobile password inputs.</p>
 
       <input id="password" type="text" />
-
-      <script>
-        let asyncUpdater;
-        const passwordParser = () => {
-          asyncUpdater = setTimeout(() => {
-            let toHide = document.querySelector("#password");
-            toHide.value = "*".repeat(toHide.value.length);
-          }, 2000);
-        };
-
-        let input = document.querySelector("#password");
-        input.addEventListener("keydown", (event) => {
-          clearTimeout(asyncUpdater);
-          let newWord = event.target.value;
-          if (newWord.length > 0) {
-            input.value = "*".repeat(newWord.length);
-          }
-          passwordParser();
-        });
-      </script>
     </section>
+
+    <script src="./problem00.js"></script>
   </body>
 </html>
