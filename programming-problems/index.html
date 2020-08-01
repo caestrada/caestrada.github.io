@@ -1,24 +1,48 @@
-<h1>1. Hide password with “•••••••”</h1>
-<p>Implement the hide password you normally see on mobile password inputs.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos's Site 🤓</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
 
-<input id="password" type="text">
+<body>
+    <header>
+        <nav>
+            <a href="../projects.html">Projects</a>
+            <a href="../tutorials.html">Tutorials / Lectures</a>
+            <a href="../programming-problems/index.html">Programming Problems</a>
+            <a href="../contact-me.html">Contact Me</a>
+        </nav>
+    </header>
+    <section class="content">
+      <h1>1. Hide password with “•••••••”</h1>
+      <p>
+        Implement the hide password you normally see on mobile password inputs.
+      </p>
 
-<script>
-    let asyncUpdater;
-    const passwordParser = () => {
-        asyncUpdater = setTimeout(() => {
-            let toHide = document.querySelector('#password');
-            toHide.value = '*'.repeat(toHide.value.length);
-        }, 2000);
-    }
+      <input id="password" type="text" />
 
-    let input = document.querySelector('#password');
-    input.addEventListener('keydown', (event) => {
-        clearTimeout(asyncUpdater);
-        let newWord = event.target.value;
-        if(newWord.length > 0) {
-            input.value = '*'.repeat(newWord.length);
-        }
-        passwordParser();
-    });
-</script>
+      <script>
+        let asyncUpdater;
+        const passwordParser = () => {
+          asyncUpdater = setTimeout(() => {
+            let toHide = document.querySelector("#password");
+            toHide.value = "*".repeat(toHide.value.length);
+          }, 2000);
+        };
+
+        let input = document.querySelector("#password");
+        input.addEventListener("keydown", (event) => {
+          clearTimeout(asyncUpdater);
+          let newWord = event.target.value;
+          if (newWord.length > 0) {
+            input.value = "*".repeat(newWord.length);
+          }
+          passwordParser();
+        });
+      </script>
+    </section>
+  </body>
+</html>
