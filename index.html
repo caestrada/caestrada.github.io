@@ -6,28 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Carlos's Site 🤓</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <picture>
-      <source type="image/webp" srcset="assets/avatar_image.webp">
-      <source type="image/png" srcset="assets/avatar_image.png">
-      <img class="avatar-image avatar-transition-dark" src="assets/avatar_image.png"
-        alt="Carlos Estrada's profile picture." />
-    </picture>
-    <a class="navbar-brand" href="">Carlos Estrada</a>
+    <a type="button" data-toggle="modal" data-target="#exampleModal">
+      <picture>
+        <source type="image/webp" srcset="assets/avatar_image.webp">
+        <source type="image/png" srcset="assets/avatar_image.png">
+        <img class="avatar-image avatar-transition-dark" src="assets/avatar_image.png" alt="Carlos Estrada's profile picture." />
+      </picture>
+    </a>
+    <a class="navbar-brand">Carlos Estrada</a>
 
-    <button 
-      class="navbar-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -49,21 +42,37 @@
     </div>
   </nav>
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">Carlos Estrada</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <picture>
+            <source type="image/webp" srcset="assets/carlos_estrada.webp">
+            <source type="image/png" srcset="assets/carlos_estrada.png">
+            <img class="profile-image" src="assets/carlos_estrada.png" alt="Carlos Estrada's profile picture." />
+          </picture>
+        </div>
+        <div class="modal-footer">
+          <ul>
+            <li><strong>Software Engineer</strong> and founder of a few tiny startups. Interested in
+              web technologies and machine learning.</li>
+            <li>Currently working as a <strong>Salesforce Developer</strong> at <strong>Ultimate Software</strong>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal END -->
+
   <div class="jumbotron">
-    <h1 class="display-4">Carlos Estrada</h1>
-    <picture>
-      <source type="image/webp" srcset="assets/carlos_estrada.webp">
-      <source type="image/png" srcset="assets/carlos_estrada.png">
-      <img class="profile-image" src="assets/carlos_estrada.png" alt="Carlos Estrada's profile picture." />
-    </picture>
-    <p>
-      <em>Software Engineer and founder of a few tiny startups. Interested in
-        web technologies and machine learning.</em>
-    </p>
-    <p>
-      I'm a Full Stack devloper. I love programming and learning about the
-      latest technologies.
-    </p>
+    <h1>Game Over</h1>
   </div>
 
   <section class="content">
