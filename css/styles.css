@@ -25,6 +25,18 @@ header a:hover {
     color: #4f8a8b;
 }
 
+.jumbotron {
+    height: 500px;
+}
+.jumbptron-container {
+    text-align: center;
+}
+.jumbptron-container h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
 .content {
     top: 50px;
 }
