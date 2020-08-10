@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import avatarImage from '../orig/assets/avatar_image.png';
-import avatarImageWebp from '../orig/assets/avatar_image.webp';
-import profileImage from '../orig/assets/carlos_estrada.png';
-import profileImageWebp from '../orig/assets/carlos_estrada.webp';
+import avatarImage from '../assets/avatar_image.png';
+import avatarImageWebp from '../assets/avatar_image.webp';
+import profileImage from '../assets/carlos_estrada.png';
+import profileImageWebp from '../assets/carlos_estrada.webp';
 import { render } from 'react-dom';
 
 class Navbar extends React.Component {
