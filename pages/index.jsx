@@ -3,8 +3,8 @@ import Layout from '../components/Layout';
 
 const Page = () => (
   <Layout>
-    <div class="jumbotron">
-      <div class="jumbptron-container">
+    <div className="jumbotron">
+      <div className="jumbptron-container">
         <h1>Loading ...</h1>
       </div>
     </div>
