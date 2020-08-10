@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[11],{QsNJ:function(n,t,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/tutorials",function(){return u("gZtR")}])},gZtR:function(n,t,u){"use strict";u.r(t);var i=u("q1tI"),o=u.n(i),_=u("7oih"),e=o.a.createElement;t.default=function(){return e(_.a,null,e("div",null,e("h1",null,"Tutorials")))}}},[["QsNJ",0,2,1,3]]]);

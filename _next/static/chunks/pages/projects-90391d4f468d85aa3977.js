@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{"16l3":function(n,t,o){"use strict";o.r(t);var u=o("q1tI"),e=o.n(u),_=o("7oih"),i=e.a.createElement;t.default=function(){return i(_.a,null,i("div",null,i("h1",null,"Projects")))}},D85t:function(n,t,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/projects",function(){return o("16l3")}])}},[["D85t",0,2,1,3]]]);

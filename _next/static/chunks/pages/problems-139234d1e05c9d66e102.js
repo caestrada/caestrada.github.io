@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[9],{"J+I0":function(n,o,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/problems",function(){return u("JEyE")}])},JEyE:function(n,o,u){"use strict";u.r(o);var e=u("q1tI"),t=u.n(e),_=u("7oih"),i=t.a.createElement;o.default=function(){return i(_.a,null,i("div",null,i("h1",null,"Problems")))}}},[["J+I0",0,2,1,3]]]);
