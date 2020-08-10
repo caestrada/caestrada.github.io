@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[7],{ALdH:function(n,t,u){"use strict";u.r(t);var o=u("q1tI"),_=u.n(o),c=u("5Yp1"),e=_.a.createElement;t.default=function(){return e(c.a,null,e("div",null,e("h1",null,"Contact")))}},lqnA:function(n,t,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/contact",function(){return u("ALdH")}])}},[["lqnA",0,2,1,3]]]);

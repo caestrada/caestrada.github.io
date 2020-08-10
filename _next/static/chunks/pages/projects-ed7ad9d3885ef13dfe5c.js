@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{D85t:function(n,t,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/projects",function(){return u("RHEb")}])},RHEb:function(n,t,u){"use strict";u.r(t);var e=u("q1tI"),o=u.n(e),_=u("5Yp1"),c=o.a.createElement;t.default=function(){return c(_.a,null,c("div",null,c("h1",null,"Projects")))}}},[["D85t",0,2,1,3]]]);
