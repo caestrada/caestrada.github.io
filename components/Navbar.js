@@ -1,15 +1,19 @@
 import Link from 'next/link';
+import avatarImage from '../orig/assets/avatar_image.png';
+import avatarImageWebp from '../orig/assets/avatar_image.webp';
+import profileImage from '../orig/assets/carlos_estrada.png';
+import profileImageWebp from '../orig/assets/carlos_estrada.webp';
 
 const Navbar = () => (
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a type="button" data-toggle="modal" data-target="#exampleModal">
       <picture>
-        <source type="image/webp" srcset="../orig/assets/avatar_image.webp" />
-        <source type="image/png" srcset="../orig/assets/avatar_image.png" />
-        <img class="avatar-image avatar-transition-dark" src="../orig/assets/avatar_image.png" alt="Carlos Estrada's profile picture." />
+        <source type="image/webp" srcset={avatarImageWebp} />
+        <source type="image/png" srcset={avatarImage} />
+        <img class="avatar-image avatar-transition-dark" src={avatarImage} alt="Carlos Estrada's profile picture." />
       </picture>
     </a>
-    <a class="navbar-brand">Carlos Estrada</a>
+    <Link href="/"><a class="navbar-brand">Carlos Estrada</a></Link>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,9 +48,9 @@ const Navbar = () => (
           </div>
           <div class="modal-body">
             <picture>
-              <source type="image/webp" srcset="/orig/assets/carlos_estrada.webp" />
-                <source type="image/png" srcset="/orig/assets/carlos_estrada.png" />
-                  <img class="profile-image" src="/orig/assets/carlos_estrada.png" alt="Carlos Estrada's profile picture." />
+              <source type="image/webp" srcset={profileImageWebp} />
+                <source type="image/png" srcset={profileImage} />
+                  <img class="profile-image" src={profileImage} alt="Carlos Estrada's profile picture." />
           </picture>
         </div>
               <div class="modal-footer">

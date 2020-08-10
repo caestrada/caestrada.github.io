@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "next": "^9.5.1",
+    "next-images": "^1.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -13,7 +14,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caestrada/caestrada.github.io.git"
