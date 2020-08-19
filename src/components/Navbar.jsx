@@ -12,7 +12,7 @@ class Navbar extends React.Component {
       console.log('...')
       const avatarImgs = document.querySelectorAll('.avatar-image');
       console.log('...', avatarImgs)
-      if(avatarImgs) {
+      if (avatarImgs) {
         avatarImgs.forEach((avatarImg) => {
           console.log(avatarImg);
           let classes = avatarImg.className.split(' ');
@@ -43,14 +43,13 @@ class Navbar extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link href="/projects"><a className="nav-link">Projects</a></Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/tutorials"><a className="nav-link">Tutorials / Lectures</a></Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/problems"><a className="nav-link">Programming Problems</a></Link>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Code Repos</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://github.com/caestrada/todo-projects">Projects</a>
+                <a class="dropdown-item" href="https://github.com/caestrada/practicing-cpp">C++</a>
+                <a class="dropdown-item" href="https://github.com/caestrada/practicing-javascript">JavaScript</a>
+              </div>
             </li>
             <li className="nav-item">
               <Link href="/contact"><a className="nav-link">Contact Me</a></Link>
